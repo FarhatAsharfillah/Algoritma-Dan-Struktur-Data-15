@@ -63,3 +63,9 @@ public:
             {                                         // If the value in the data field of the new node is less than the value in the data field of the currentNode
                 currentNode = currentNode->leftchild; // Make the currentNode point to the left child of the currentNode
             }
+            else
+            {                                          // If the value in the data field of the new node is greater than the value in the data field of the currentNode
+                currentNode = currentNode->rightchild; // Make the currentNode point to the right child of the currentNode
+            }
+        }
+    }
